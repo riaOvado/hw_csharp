@@ -5,7 +5,8 @@ namespace Lesson
     {
         static void Main(string[] args)
         {
-            Task41();
+            //Task41();
+            Task43();
         }
 
         static void Task41() {
@@ -27,6 +28,25 @@ namespace Lesson
 
             }
             Console.WriteLine("чисел больше нуля - " + kolvo);
+        }
+
+        static void Task43()
+        {
+            //Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых,
+            //заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 
+            //задаются пользователем.
+            int x = 0,y = 0,b1 = 0,b2 = 0,k1 = 0,k2 = 0;
+            Console.WriteLine("введите b1");
+            b1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("введите b2");
+            b2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("введите k1");
+            k1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("введите k2");
+            k2 = int.Parse(Console.ReadLine());
+            x = (b2-b1)/(k1-k2);
+            y = k1 * x + b1;
+            Console.WriteLine("координаты " + x + y);
         }
     }
 }
