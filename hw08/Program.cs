@@ -11,7 +11,10 @@ namespace Lesson
             //Task54();
             //Task56();
             //Task58();
-            Task60();
+            //как сделать уникальные числа не разобралась
+            //Task60(); 
+            Task62();
+
 
 
         }
@@ -168,17 +171,39 @@ namespace Lesson
                     for(int k = 0; k < arr.GetLength(2); k++)
                     {
                         arr[i, j, k] = new Random().Next(10,99);
-                        for(int l = 0; l < h.Length; l++)
-                        {
-                           h[i] = arr[i, j, k];
-                        }
-                        Console.WriteLine( arr[i, j, k] + " ");
+                        
+                        Console.Write( arr[i, j, k] + " ");
                     }
-                    Console.WriteLine();
+                    
                 }
-                Console.WriteLine();
+                Console.WriteLine( );
+
             }
            
+        }
+
+        static void Task62()
+        {
+            //Задача 62: Заполнить массив 4 х 4 спирально 
+            int[,] array = new int[4, 4];
+
+            int i = 0, j = 0, n = 4;
+            int value = 1;
+            for (int e = 0; e < n*n; e++)
+            {
+                int k = 0;
+                do { 
+                    array[i, j++] = value++; 
+                }
+                while (++k < n - 1);
+                for (k = 0; k < n - 1; k++) array[i++, j] = value++;
+                for (k = 0; k < n - 1; k++) array[i, j--] = value++;
+                for (k = 0; k < n - 1; k++) array[i--, j] = value++;
+                ++i; ++j;
+                n = n < 2 ? 0 : n - 2;
+            }
+
+            PrintArray( array );
         }
 
     }
