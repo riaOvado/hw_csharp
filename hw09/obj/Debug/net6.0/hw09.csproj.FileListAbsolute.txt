@@ -1,0 +1,15 @@
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\bin\Debug\net6.0\hw09.exe
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\bin\Debug\net6.0\hw09.deps.json
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\bin\Debug\net6.0\hw09.runtimeconfig.json
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\bin\Debug\net6.0\hw09.dll
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\bin\Debug\net6.0\hw09.pdb
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.csproj.AssemblyReference.cache
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.GeneratedMSBuildEditorConfig.editorconfig
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.AssemblyInfoInputs.cache
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.AssemblyInfo.cs
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.csproj.CoreCompileInputs.cache
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.dll
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\refint\hw09.dll
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.pdb
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\hw09.genruntimeconfig.cache
+D:\GEEKBRAINS методички\курс разработчик\знакомство с языками программир\action\hw09\obj\Debug\net6.0\ref\hw09.dll
